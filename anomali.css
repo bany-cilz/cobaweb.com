@@ -61,7 +61,7 @@ font-size: 30px;
 }
 
 .footer {
-    height: 5vh;
+    height: 9vh;
  background-color: rgb(194, 193, 193);
  display: flex;
  justify-content: center;
@@ -69,6 +69,7 @@ font-size: 30px;
 }
 
 .h1f {
+    color: black;
     font-size: 30px;
 }
 
