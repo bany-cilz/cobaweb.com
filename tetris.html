@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetris Game</title>
+  <link rel="stylesheet" href="anomali.css" /> <!-- Navbar style -->
+  <link rel="stylesheet" href="tetris.css" />  <!-- Style khusus Tetris -->
+</head>
+<body>
+
+  <!-- NAVBAR (copy dari HTML kamu) -->
+  <div class="navbar">
+    <ul class="ul-kiw">
+      <li class="li-kiw"><a href="index.html" class="a-n">HOME</a></li>
+      <li class="li-kiw"><a href="about.html" class="a-n">ABOUT</a></li>
+      <li class="li-kiw"><a href="contact.html" class="a-n">CONTACT</a></li>
+      <li class="li-kiw"><a href="menu.html" class="a-n">MENU</a></li>
+    </ul>
+  </div>
+
+  <!-- TETRIS GAME -->
+  <h1>Tetris Game</h1>
+  <div class="game-container">
+    <div id="tetris-grid"></div>
+    <div class="info">
+      <h2>Score: <span id="score">0</span></h2>
+      <button onclick="startGame()">Start/Restart</button>
+      <div class="controls">
+        <button onclick="moveLeft()">◀️</button>
+        <button onclick="rotate()">🔄</button>
+        <button onclick="moveRight()">▶️</button>
+        <button onclick="moveDown()">⬇️</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="tetris.js"></script>
+</body>
+</html>

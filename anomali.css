@@ -150,3 +150,57 @@ margin: 25px;
 color: rgb(0, 0, 0);
 font-size: 50px;
  }
+
+/* CSS GAME TETRIS */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#tetris-grid {
+  width: 200px;
+  height: 400px;
+  background-color: #222;
+  display: grid;
+  grid-template-columns: repeat(10, 20px);
+  grid-template-rows: repeat(20, 20px);
+  gap: 1px;
+}
+
+#tetris-grid div {
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+}
+
+.tetromino {
+  background-color: #0ff;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  margin: 2px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
